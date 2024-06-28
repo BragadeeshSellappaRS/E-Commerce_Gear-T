@@ -112,3 +112,27 @@ body{
 .feature{
     padding: 30px;
 }
+
+.products{
+    text-align: center;
+}
+.feature-product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.p img{
+    width: 70%;
+    border-radius: 30px;
+}
+
+.p{
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 30px;
+    box-shadow: 0px 5px 15px rgba(59, 59, 59, 0.342);
+}
